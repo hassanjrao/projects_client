@@ -324,7 +324,7 @@ if (isset($_POST['submit'])) {
                             <td><img src="<?php echo "$folder/".$result["image_one"] ?>" alt="" width="150px" height="150px"></td>
                             <td><img src="<?php echo "$folder/".$result["image_sec"] ?>" alt="" width="150px" height="150px"></td>
                             <td><?php echo $result["title"]; ?></td>
-                            <td><?php echo strlen($result["description"]) >100 ? substr($result["description"], 0, 50)." ...." : $result["description"]; ?></td>
+                            <td><?php echo strlen(strip_tags($result["description"])) >100 ? substr(strip_tags($result["description"]), 0, 50)." ...." : strip_tags($result["description"]); ?></td>
 
 
                             <td>

@@ -10,12 +10,12 @@
 							Admin
 						</a>
 		
-						<ul class="dropdown-menu">
+						<!-- <ul class="dropdown-menu">
 		
-							<!-- Reverse Caret -->
+						
 							<li class="caret"></li>
 		
-							<!-- Profile sub-links -->
+							
 							<li>
 								<a href="extra-timeline.html">
 									<i class="entypo-user"></i>
@@ -24,7 +24,7 @@
 							</li>
 		
 						
-						</ul>
+						</ul> -->
 					</li>
 		
 				</ul>

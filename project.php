@@ -46,7 +46,7 @@ if (!isset($_GET["id"])) {
 	<script src="https://kit.fontawesome.com/65e8f222c3.js" crossorigin="anonymous"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-	<title>Lake House - Solid House</title>
+	<title><?php echo ucfirst($result["title"]) ?> - Solid House</title>
 </head>
 
 <body>
